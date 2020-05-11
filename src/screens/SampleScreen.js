@@ -2,13 +2,24 @@
 //You'll spend the majority of your time creating screens and components
 //======================================================================
 
+//Import your libraries here
 import React, {Component} from 'react';
 import {View, Text} from 'react-native';
 import {connect} from 'react-redux';
 
+//Import your store here, if you're going to be manipulating state
+import store from '../store/store';
+
+//Import your components here
+import SampleComponent from '../components/SampleComponent'; 
+
 export class SampleScreen extends Component {
   constructor(props) {
     super(props);
+  }
+
+  _sampleFunction = () => {
+    return;
   }
 
   render() {

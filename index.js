@@ -10,10 +10,8 @@ import {Navigation} from 'react-native-navigation';
 import store from './src/store/store';
 import {Provider} from 'react-redux';
 
-//Import your components here
+//Import your screens here
 import SampleScreen from './src/screens/SampleScreen';
-
-//Import your components here
 
 //Register the component with Redux. Note registerComponentWithRedux is deprecated.
 Navigation.registerComponent('SampleScreen', () => props => (
